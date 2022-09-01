@@ -12,7 +12,7 @@ public class EmployeeWageComputation {
             System.out.println("Employee is Absent");
     }
     static int checkAttendance(){
-        int random=(int)(Math.random()*10)%2;
+        int random=(int)(Math.random()*10)%2);
         return random;
     }
 }
