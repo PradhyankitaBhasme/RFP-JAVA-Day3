@@ -9,6 +9,9 @@ public class EmployeeWageComputation {
         int attendance;
         int dailyWage=0;
 
+    public static void main(String[] args) {
+        int attendance;
+
         System.out.println("Welcome to Employee Wage Computation");
         attendance=checkAttendance();
 
@@ -20,8 +23,9 @@ public class EmployeeWageComputation {
 
         System.out.println("Daily Wage = "+dailyWage);
     }
+    
     static int checkAttendance(){
-        int random=(int)(Math.random()*10)%2;
+        int random=(int)(Math.random()*10)%2);
         return random;
     }
 }
