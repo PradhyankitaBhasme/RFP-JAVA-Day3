@@ -15,6 +15,9 @@ public class EmployeeWageComputation {
         int totalWage=0;
         int totalWorkingHrs=0;
 
+    public static void main(String[] args) {
+        int attendance;
+
         System.out.println("Welcome to Employee Wage Computation");
 
         while (day <=MAX_DAYS && totalWorkingHrs<MAX_HOURS) {
@@ -43,8 +46,13 @@ public class EmployeeWageComputation {
         System.out.println("Total Wage of month= "+totalWage);
 
     }
+    
     static int checkAttendance(){
+
         int random=(int)(Math.random()*10)%3;
+
+        int random=(int)(Math.random()*10)%2);
+
         return random;
     }
 }
